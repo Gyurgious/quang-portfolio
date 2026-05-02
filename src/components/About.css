@@ -1,0 +1,145 @@
+/* About Section Styles */
+.about-section {
+  background: var(--bg-secondary);
+  padding: 120px 48px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.about-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+.section-number {
+  font-family: 'Syne', sans-serif;
+  font-size: 14px;
+  color: var(--accent);
+  letter-spacing: 2px;
+}
+
+.section-title {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 700;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-lead {
+  font-size: 24px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: var(--text-primary);
+}
+
+.about-description {
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+}
+
+/* Skills Container */
+.skills-container {
+  padding: 32px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.skills-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--text-muted);
+  margin-bottom: 24px;
+}
+
+/* Skills Groups */
+.skills-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.skills-group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.skills-group-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  padding: 10px 18px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  color: var(--text-primary);
+  transition: all 0.3s ease;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.skill-tag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-4px);
+}
+
+@media (max-width: 1024px) {
+  .about-section {
+    padding: 80px 24px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
