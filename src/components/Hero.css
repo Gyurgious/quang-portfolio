@@ -1,4 +1,4 @@
-import './Hero.css'
+
 
 /* Hero Section Styles */
 .hero-section {
@@ -62,13 +62,11 @@ import './Hero.css'
 }
 
 .hero-content {
-  border : 1px solid var(--border);
   text-align: center;
   display: flex;
   flex-direction: column;
    justify-content: space-between; 
   align-items: center;    /* Vertical */
-padding-top: 100px;
   min-height: 600px;
   position: relative;
   z-index: 1;
