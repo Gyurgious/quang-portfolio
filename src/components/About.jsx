@@ -48,7 +48,7 @@ export default function About() {
     <h3 className="skills-group-title">Frontend</h3>
     <div className="skills-list">
       <span className="skill-tag">React</span>
-      <span className="skill-tag">Javascript</span>
+      <span className="skill-tag">Vue</span>
       <span className="skill-tag">HTML/CSS</span>
     </div>
   </div>
@@ -60,7 +60,7 @@ export default function About() {
           <span className="skill-tag">Django</span>
           <span className="skill-tag">PHP</span>
           <span className="skill-tag">SQL</span>
-          <span className="skill-tag">PostgreSQL</span>
+          <span className="skill-tag">REST API</span>
         </div>
       </div>
 
@@ -68,9 +68,11 @@ export default function About() {
         <h3 className="skills-group-title">Tools & Other Languages</h3>
         <div className="skills-list">
            <span className="skill-tag">C++</span>
+           <span className="skill-tag">C#</span>
+           <span className="skill-tag">Javascript</span>
           <span className="skill-tag">Git</span>
           <span className="skill-tag">Docker</span>
-          <span className="skill-tag">Figma</span>
+          <span className="skill-tag">Splunk</span>
         </div>
       </div>
     </div>

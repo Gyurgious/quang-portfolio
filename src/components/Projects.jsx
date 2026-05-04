@@ -27,7 +27,7 @@ export default function Projects() {
       year: '2026',
       color: '#ff6b35',
       index: '01',
-      tags: ['React', 'Python', 'Django', 'PostgreSQL'],
+      tags: ['React', 'Python', 'Django', 'ORM', 'SQL'],
       description: 'Mapping application for Houston crime data. Features interactive maps, data visualizations, and analytics to help users explore crime patterns across the city.',
       link: '#',
     },
