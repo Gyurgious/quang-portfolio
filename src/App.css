@@ -16,6 +16,7 @@
   --glow: rgba(0, 255, 136, 0.15);
 }
 
+
 /* Custom Cursor */
 .cursor-dot {
   position: fixed;
@@ -42,7 +43,13 @@
   opacity: 0.5;
 }
 
-/* App Container */
+.cursor-dot,
+.cursor-follower {
+  pointer-events: none;
+}
+
+
 .app {
   min-height: 100vh;
+  cursor: none;
 }

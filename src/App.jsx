@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -25,7 +25,7 @@ function App() {
     const delay = 0.1
     const timer = setTimeout(() => {
       setCursorFollow({ x: mousePos.x, y: mousePos.y })
-    }, delay * 1000)
+    }, delay * 1)
     return () => clearTimeout(timer)
   }, [mousePos])
 

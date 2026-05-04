@@ -48,6 +48,9 @@
 .contact-content {
   max-width: 600px;
   margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-text {
@@ -63,13 +66,14 @@
   font-weight: 700;
   color: var(--accent);
   text-decoration: none;
-  display: block;
+  display: inline-block;
   margin-bottom: 40px;
   position: relative;
   transition: all 0.3s ease;
 }
 
 .contact-email::after {
+  display: none;
   content: '';
   position: absolute;
   bottom: -4px;
@@ -83,6 +87,35 @@
 .contact-email:hover::after {
   width: 100%;
 }
+
+.email-text {
+  position: relative;
+}
+
+.email-text::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.contact-email:hover .email-text::after {
+  width: 100%;
+}
+
+
+.social-label {
+  margin-left: 5px;
+}
+
+.social-icon {
+  margin-top: 10px;
+}
+  
 
 .social-links {
   display: flex;

@@ -4,10 +4,10 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <span>© 2026 Quang</span>
+        <span>Quang Le</span>
       </div>
       <div className="footer-right">
-        <span>Built with React + Vite</span>
+        <span>@ 2026</span>
       </div>
     </footer>
   )

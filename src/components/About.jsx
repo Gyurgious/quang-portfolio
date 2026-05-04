@@ -36,10 +36,10 @@ export default function About() {
       <div className="about-content">
         <div className="about-text">
           <p className="about-lead">
-            I’m a full-stack software engineer with a focus on backend development, focused on building scalable and reliable web applications from end to end. 
+            I’m a full-stack software engineer with a focus on backend development. I enjoy tackling real world problems and finding solutions to them!
           </p>
           <p className="about-description">
-           With experience developing real-world applications and collaborating across different parts of the stack, I aim to create products that are not only technically sound but also practical and impactful.
+           With experience developing enterprise software and collaborating across different parts of the stack, I aim to create products that are not only technically sound but also practical and impactful.
           </p>
         </div>
         
