@@ -74,8 +74,8 @@
 
 .hero-image {
   padding: 4px;
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: auto;
   margin-bottom:50px;
   border-radius: 50%;
   object-fit: cover;

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './Hero.css'
-import HeroPhoto from '../photos/quang_grad4.png'
+import HeroPhoto from '../photos/Quang_Portfolio_photo1.jpeg';
 
 export default function Hero({ onNavigate }) {
   const [loaded, setLoaded] = useState(false)

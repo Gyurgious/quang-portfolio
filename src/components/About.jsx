@@ -59,6 +59,7 @@ export default function About() {
           <span className="skill-tag">Python</span>
           <span className="skill-tag">Django</span>
           <span className="skill-tag">PHP</span>
+          <span className="skill-tag">Java</span>
           <span className="skill-tag">SQL</span>
           <span className="skill-tag">REST API</span>
         </div>
